@@ -40,7 +40,7 @@
         <div class="blog-item clearfix">
           <%= image_tag('img/forest.jpg',  class: 'blog-image') %>
           <section class="blog-text">
-            <h3 class="blog-text-headline"><%= link_to blog.titel, blog_path(blog) %>
+            <h3 class="blog-text-headline"><%= link_to blog.title, blog_path(blog) %>
             </h3>
             <p class="blog-date"><%= blog.created_at %></p>
             <span class="category"><%= blog.category %></span>
@@ -48,7 +48,7 @@
         </div>
         <% end %>
       </div>
-      
+
       <div class="pagination">
         <p><<</p>
         <p><</p>
